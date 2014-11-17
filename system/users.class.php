@@ -43,6 +43,10 @@ class Users extends Security
 		}
 		
 		// User banned not finished :c
+		//if(Users::CheckBanned($banned))
+		//{
+		
+
 		
 		// Email registered?
 		if(Users::CheckEmail($email))
@@ -75,6 +79,10 @@ class Users extends Security
 		
 		Users::TryLogin($email, $password);
 	}
+	
+	//public function CheckBanned($banned)
+	//{
+	//	$querio = mysql_query("SELECT * FROM users_bans_access WHERE ip = '
 	
 	public function CheckEmail($email)
 	{
