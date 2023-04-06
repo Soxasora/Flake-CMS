@@ -1,4 +1,4 @@
 Flake-CMS
 =========
 
-Content Managment System for Habbo Retro Developers
+Content Management System for Habbo Retro Developers
